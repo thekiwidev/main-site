@@ -25,6 +25,10 @@ window.addEventListener("resize", function () {
 // =============================================
 var menu = document.querySelector(".menu");
 var nav = document.querySelector("nav");
+var menuText = menu.querySelector(".text");
 menu.addEventListener("click", function () {
     nav.classList.toggle("show");
+    nav.classList.contains("show")
+        ? (menuText.innerHTML = "close")
+        : (menuText.innerHTML = "menu");
 });

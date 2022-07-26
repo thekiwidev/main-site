@@ -28,7 +28,12 @@ window.addEventListener("resize", () => {
 
 const menu: HTMLDivElement = document.querySelector(".menu")!;
 const nav: HTMLElement = document.querySelector("nav")!;
+const menuText: HTMLDivElement = menu.querySelector(".text")!;
 
 menu.addEventListener("click", () => {
   nav.classList.toggle("show");
+
+  nav.classList.contains("show")
+    ? (menuText.innerHTML = `close`)
+    : (menuText.innerHTML = `menu`);
 });

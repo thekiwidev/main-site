@@ -57,7 +57,7 @@ body {
 }
 
 .wrapper header nav {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 90vh;
   top: 12%;
@@ -167,7 +167,7 @@ body {
 
 .wrapper header nav .secondary-cta button {
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
   padding: 0.5em 1em;
   outline: none;
   border: 2px solid #242424;
@@ -209,6 +209,7 @@ body {
   color: #098fdf;
   -webkit-transition: 0.3s ease all;
   transition: 0.3s ease all;
+  text-transform: uppercase;
 }
 
 .wrapper .showcase {
@@ -254,6 +255,7 @@ body {
   -webkit-box-shadow: 4px 6px 0 #242424;
           box-shadow: 4px 6px 0 #242424;
   font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .wrapper .showcase .content .right-content {

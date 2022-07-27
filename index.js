@@ -5,7 +5,7 @@ var logoImgTag = document.querySelector(".logo img");
 var logoIcon = "./assets/icons/logo-icon-black-rounded-corners.svg";
 var logoFull = "./assets/icons/logo-full-black-rounded-corners.svg";
 window.addEventListener("load", function () {
-    if (window.innerWidth >= 1225) {
+    if (window.innerWidth >= 1224) {
         logoImgTag.src = logoFull;
     }
     else {
@@ -13,7 +13,7 @@ window.addEventListener("load", function () {
     }
 });
 window.addEventListener("resize", function () {
-    if (window.innerWidth >= 1225) {
+    if (window.innerWidth >= 1224) {
         logoImgTag.src = logoFull;
     }
     else {

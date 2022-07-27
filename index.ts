@@ -7,7 +7,7 @@ const logoIcon = "./assets/icons/logo-icon-black-rounded-corners.svg";
 const logoFull = "./assets/icons/logo-full-black-rounded-corners.svg";
 
 window.addEventListener("load", () => {
-  if (window.innerWidth >= 1225) {
+  if (window.innerWidth >= 1224) {
     logoImgTag.src = logoFull;
   } else {
     logoImgTag.src = logoIcon;
@@ -15,7 +15,7 @@ window.addEventListener("load", () => {
 });
 
 window.addEventListener("resize", () => {
-  if (window.innerWidth >= 1225) {
+  if (window.innerWidth >= 1224) {
     logoImgTag.src = logoFull;
   } else {
     logoImgTag.src = logoIcon;

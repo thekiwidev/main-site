@@ -144,8 +144,8 @@
           transition: all 0.3s ease;
 
           &:hover {
-            border-color: $blue;
-            box-shadow: 5px 6px 0 $blue;
+            border-color: $black;
+            box-shadow: 5px 6px 0 $black;
           }
 
           cursor: pointer;
@@ -253,6 +253,8 @@
             &:hover {
               background: $offWhite;
               color: $dark;
+              box-shadow: 4px 6px 0 $black;
+              border-color: $black;
             }
           }
         }
